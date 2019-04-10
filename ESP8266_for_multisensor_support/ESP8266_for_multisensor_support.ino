@@ -7,8 +7,8 @@
 #define API_WRITE_KEY   "VNKFV4VC3DCNVWBC"
 #define CHANNEL_ID      "692224"
 
-#define SSID            "DebjyotiFi"
-#define PASSWORD        "cxa1619s"
+#define SSID            ""
+#define PASSWORD        ""
 
 char _buffer[400];
 uint8_t Connect_Status;
