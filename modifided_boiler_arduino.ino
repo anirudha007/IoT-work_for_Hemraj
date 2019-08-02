@@ -40,7 +40,7 @@ void loop() {
       digitalWrite(relay_pin, LOW); // relay off 
     }
   }
-  else if(switch_state==LOW){
+  else if(switch_state==HIGH){
       Serial.println("Killed!");
       digitalWrite(relay_pin, LOW);
       delay(10000);
